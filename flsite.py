@@ -21,7 +21,7 @@ def about():
 
 
 @app.errorhandler(404)
-def pageNotFound(error):
+def pagenotfound(error):
     return render_template("page404.html", title="Страница не найдена", menu=menu), 404
 
 
